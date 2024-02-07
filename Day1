@@ -1,8 +1,8 @@
-Day 1: Sorting Challenge
+Day 1: Sorting and Dynamic Programming Challenge
 
-1. Bubble Sort Implementation
+Easy Problem: Bubble Sort Implementation
 
-Problem Statement:
+1.Problem Statement:
 Write a function or method to sort an array of integers using the bubble sort algorithm.
 
 Input:
@@ -17,7 +17,7 @@ Input:
 Output:
 [1, 2, 3, 4, 5]
 
-2.Medium Problem: Merge Sort Implementation
+2. Problem: Merge Sort Implementation
 
 Problem Statement:
 Write a function or method to sort an array of integers using the merge sort algorithm.
@@ -34,19 +34,19 @@ Input:
 Output:
 [1, 2, 3, 4, 5, 6, 7]
 
-3.Quick Sort Implementation
+3. Problem: Longest Increasing Subsequence
 
 Problem Statement:
-Write a function or method to sort an array of integers using the quick sort algorithm.
+Given an unsorted array of integers, find the length of the longest increasing subsequence.
 
 Input:
 An array of integers.
 
 Output:
-The sorted array.
+The length of the longest increasing subsequence.
 
 Example:
 Input:
-[8, 5, 3, 1, 6, 7, 2, 4]
+[10, 22, 9, 33, 21, 50, 41, 60, 80]
 Output:
-[1, 2, 3, 4, 5, 6, 7, 8]
+6 (The LIS is [10, 22, 33, 50, 60, 80])
