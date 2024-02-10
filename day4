@@ -1,0 +1,56 @@
+Day 4: Binary Search and Dynamic Programming
+
+1. Problem: Counting Sort Implementation
+
+Problem Statement:
+Implement the counting sort algorithm to sort an array of integers.
+
+Input:
+An array of integers.
+
+Output:
+The sorted array.
+
+Example:
+Input:
+[5, 3, 8, 2, 7, 1, 6, 4]
+Output:
+[1, 2, 3, 4, 5, 6, 7, 8]
+
+2. Problem: Binary Search Tree (BST) Implementation
+
+Problem Statement:
+Implement a binary search tree (BST) data structure along with insertion and search operations.
+
+Input:
+Commands to insert and search elements in the BST.
+
+Output:
+Results of insertion and search operations.
+
+Example:
+Input:
+Insert: 5, 3, 8, 2, 7
+Search: 3, 6
+Output:
+Inserted: 5, 3, 8, 2, 7
+Found: 3
+Not Found: 6
+
+3. Problem: Longest Common Subsequence with Binary Search
+
+Problem Statement:
+Given two sorted arrays, find the length of the longest common subsequence (LCS) using binary search.
+
+Input:
+Two sorted arrays.
+
+Output:
+The length of the longest common subsequence.
+
+Example:
+Input:
+Array 1: [1, 3, 5, 7, 9]
+Array 2: [3, 5, 8, 9, 10]
+Output:
+Length of LCS: 3 (LCS: [3, 5, 9])
