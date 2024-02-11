@@ -1,0 +1,62 @@
+Day 5: Graphs and Recursion
+
+1.Problem: Graph Representation
+
+Problem Statement:
+Implement a graph data structure and functions to add vertices and edges.
+
+Input:
+Commands to add vertices and edges to the graph.
+
+Output:
+Confirmation messages for successful addition of vertices and edges.
+
+Example:
+Input:
+Add Vertex: A, B, C
+Add Edge: A -> B, B -> C
+Output:
+Vertices Added: A, B, C
+Edges Added: A -> B, B -> C
+
+2. Problem: Depth-First Search (DFS) Implementation
+
+Problem Statement:
+Implement the depth-first search (DFS) algorithm to traverse a graph and print the order of visited vertices.
+
+Input:
+A graph represented as an adjacency list.
+
+Output:
+The order of visited vertices during DFS traversal.
+
+Example:
+Input:
+Graph:
+{
+A: [B, C],
+B: [D, E],
+C: [F],
+D: [],
+E: [],
+F: []
+}
+Output:
+DFS Traversal: A -> B -> D -> E -> C -> F
+
+3. Problem: Factorial Calculation using Recursion
+
+Problem Statement:
+Write a recursive function to calculate the factorial of a non-negative integer.
+
+Input:
+A non-negative integer n.
+
+Output:
+The factorial of n.
+
+Example:
+Input:
+n = 5
+Output:
+Factorial of 5: 120
