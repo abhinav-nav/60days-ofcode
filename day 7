@@ -1,0 +1,57 @@
+
+Day 7: Hash Tables and Greedy Algorithms
+
+1. Problem: Implementing a Hash Table
+
+Problem Statement:
+Implement a hash table data structure with functions to insert and search for key-value pairs.
+
+Input:
+Key-value pairs to be inserted into the hash table and keys to be searched for.
+
+Output:
+Results of insertions and searches.
+
+Example:
+Input:
+Insert: ("apple", 5), ("banana", 8), ("orange", 3)
+Search: "banana"
+Output:
+Inserted: ("apple", 5), ("banana", 8), ("orange", 3)
+Found: "banana"
+
+2. Problem: Minimum Number of Coins
+
+Problem Statement:
+Given a list of coin denominations and a target amount, write a function to find the minimum number of coins needed to make up that amount.
+
+Input:
+A list of coin denominations and a target amount.
+
+Output:
+The minimum number of coins needed to make up the target amount.
+
+Example:
+Input:
+Denominations: [1, 2, 5]
+Target amount: 11
+Output:
+Minimum number of coins: 3 (2 coins of denomination 5, 1 coin of denomination 1)
+
+3. Problem: Maximum Subarray Sum
+
+Problem Statement:
+Given an array of integers, find the contiguous subarray with the largest sum.
+
+Input:
+An array of integers.
+
+Output:
+The sum of the maximum subarray.
+
+Example:
+Input:
+[-2, 1, -3, 4, -1, 2, 1, -5, 4]
+Output:
+Maximum subarray sum: 6 (Subarray: [4, -1, 2, 1])
+
