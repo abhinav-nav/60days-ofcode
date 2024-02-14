@@ -1,0 +1,56 @@
+
+
+Day 8: Strings and Backtracking
+1. Problem: Reverse a String
+
+Problem Statement:
+Write a function to reverse a string.
+
+Input:
+A string.
+
+Output:
+The reversed string.
+
+Example:
+Input:
+"hello"
+Output:
+"olleh"
+
+2. Problem: Letter Combinations of a Phone Number**
+
+Problem Statement:
+Given a string containing digits from 2-9 representing a phone's keypad, return all possible letter combinations that the number could represent. Return the answer in any order.
+
+Input:
+A string containing digits from 2-9.
+
+Output:
+All possible letter combinations as a list of strings.
+
+Example:
+Input:
+"23"
+Output:
+["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"]
+
+3. Problem: Regular Expression Matching**
+
+Problem Statement:
+Given an input string (s) and a pattern (p), implement regular expression matching with support for '.' and '*'. '.' matches any single character, and '*' matches zero or more of the preceding element.
+
+Input:
+A string (s) and a pattern (p).
+
+Output:
+Return true if the input string matches the pattern, otherwise return false.
+
+Example:
+Input:
+s = "aab"
+p = "c*a*b"
+Output:
+true
+
+These questions cover string manipulation and backtracking, providing a variety of challenges for Day 8.
