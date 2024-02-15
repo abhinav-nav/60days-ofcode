@@ -1,0 +1,57 @@
+
+Day 9: Linked Lists and Divide and Conquer
+
+1. Problem: Reverse a Linked List
+
+Problem Statement:
+Write a function to reverse a linked list.
+
+Input:
+A linked list.
+
+Output:
+The reversed linked list.
+
+Example:
+Input:
+1 -> 2 -> 3 -> 4 -> 5
+Output:
+5 -> 4 -> 3 -> 2 -> 1
+
+2. Problem: Merge Two Sorted Lists**
+
+Problem Statement:
+Merge two sorted linked lists and return it as a new sorted list. The new list should be made by splicing together the nodes of the first two lists.
+
+Input:
+Two sorted linked lists.
+
+Output:
+A new sorted linked list after merging the input lists.
+
+Example:
+Input:
+List 1: 1 -> 2 -> 4
+List 2: 1 -> 3 -> 4
+Output:
+1 -> 1 -> 2 -> 3 -> 4 -> 4
+
+3. Problem: Find the Closest Pair of Points**
+
+Problem Statement:
+Given an array of points in a 2D plane, find the closest pair of points.
+
+Input:
+An array of points in a 2D plane.
+
+Output:
+The closest pair of points and their distance.
+
+Example:
+Input:
+[(1, 2), (3, 4), (5, 6), (7, 8)]
+Output:
+Closest pair: (3, 4) and (5, 6)
+Distance: 2.828 (approx)
+
+These questions cover linked lists, sorting and searching, and divide and conquer techniques, providing a variety of challenges for Day 9.
