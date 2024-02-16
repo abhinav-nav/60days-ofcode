@@ -1,0 +1,65 @@
+Day 10: Stack and Queue
+
+1. Problem: Implement Stack using Array
+
+Problem Statement:
+Implement a stack data structure using an array and provide functions to push, pop, and check if the stack is empty.
+
+Input:
+Commands to push elements onto the stack, pop elements from the stack, and check if the stack is empty.
+
+Output:
+Results of push, pop operations, and whether the stack is empty.
+
+Example:
+Input:
+Push: 5, 3, 8, 2
+Pop: 
+Is Empty?
+Output:
+Pushed: 5, 3, 8, 2
+Popped: 2
+Stack is not empty
+
+2. Problem: Implement Queue using Two Stacks**
+
+Problem Statement:
+Implement a queue data structure using two stacks and provide functions to enqueue, dequeue, and check if the queue is empty.
+
+Input:
+Commands to enqueue elements into the queue, dequeue elements from the queue, and check if the queue is empty.
+
+Output:
+Results of enqueue, dequeue operations, and whether the queue is empty.
+
+Example:
+Input:
+Enqueue: 5, 3, 8, 2
+Dequeue: 
+Is Empty?
+Output:
+Enqueued: 5, 3, 8, 2
+Dequeued: 5
+Queue is not empty
+
+3. Problem: Implement Stack using Queue**
+
+Problem Statement:
+Implement a stack data structure using a queue and provide functions to push, pop, and check if the stack is empty.
+
+Input:
+Commands to push elements onto the stack, pop elements from the stack, and check if the stack is empty.
+
+Output:
+Results of push, pop operations, and whether the stack is empty.
+
+Example:
+Input:
+Push: 5, 3, 8, 2
+Pop: 
+Is Empty?
+Output:
+Pushed: 5, 3, 8, 2
+Popped: 2
+Stack is not empty
+
