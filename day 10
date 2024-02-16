@@ -21,7 +21,7 @@ Pushed: 5, 3, 8, 2
 Popped: 2
 Stack is not empty
 
-2. Problem: Implement Queue using Two Stacks**
+2. Problem: Implement Queue using Two Stacks
 
 Problem Statement:
 Implement a queue data structure using two stacks and provide functions to enqueue, dequeue, and check if the queue is empty.
@@ -42,7 +42,7 @@ Enqueued: 5, 3, 8, 2
 Dequeued: 5
 Queue is not empty
 
-3. Problem: Implement Stack using Queue**
+3. Problem: Implement Stack using Queue
 
 Problem Statement:
 Implement a stack data structure using a queue and provide functions to push, pop, and check if the stack is empty.
