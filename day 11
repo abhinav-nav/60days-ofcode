@@ -1,0 +1,55 @@
+
+Day 11: Searching and Sorting
+
+1. Problem: Linear Search
+
+Problem Statement:
+Implement a function to perform linear search on an array to find a target element.
+
+Input:
+An array of integers and a target element.
+
+Output:
+The index of the target element if found, or -1 if not found.
+
+Example:
+Input:
+Array: [5, 3, 8, 2, 7, 1, 6, 4]
+Target: 7
+Output:
+Index: 4
+
+2. Problem: Selection Sort
+
+Problem Statement:
+Implement the selection sort algorithm to sort an array of integers.
+
+Input:
+An array of integers.
+
+Output:
+The sorted array.
+
+Example:
+Input:
+[5, 3, 8, 2, 7, 1, 6, 4]
+Output:
+[1, 2, 3, 4, 5, 6, 7, 8]
+
+3. Problem: Merge Sort
+
+Problem Statement:
+Implement the merge sort algorithm to sort an array of integers.
+
+Input:
+An array of integers.
+
+Output:
+The sorted array.
+
+Example:
+Input:
+[5, 3, 8, 2, 7, 1, 6, 4]
+Output:
+[1, 2, 3, 4, 5, 6, 7, 8]
+
