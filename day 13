@@ -1,0 +1,55 @@
+
+Day 13: Dynamic Programming and Strings
+
+1. Problem: Fibonacci Series
+
+Problem Statement:
+Write a function to generate the Fibonacci series up to a given number n.
+
+Input:
+An integer n.
+
+Output:
+The Fibonacci series up to n.
+
+Example:
+Input:
+n = 8
+Output:
+Fibonacci series: 0, 1, 1, 2, 3, 5, 8
+
+2. Problem: Longest Palindromic Substring
+
+Problem Statement:
+Given a string, find the longest palindromic substring in it.
+
+Input:
+A string.
+
+Output:
+The longest palindromic substring.
+
+Example:
+Input:
+"babad"
+Output:
+"bab" or "aba"
+
+3. Problem: Coin Change Problem
+
+Problem Statement:
+Given a set of coins and a target amount, find the minimum number of coins needed to make up that amount. You have an infinite supply of each coin denomination.
+
+Input:
+A list of coin denominations and a target amount.
+
+Output:
+The minimum number of coins needed to make up the target amount.
+
+Example:
+Input:
+Coins: [1, 2, 5]
+Target amount: 11
+Output:
+Minimum number of coins: 3
+
