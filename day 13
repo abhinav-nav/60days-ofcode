@@ -1,55 +1,73 @@
+Day 13: Trees and Graphs
 
-Day 13: Dynamic Programming and Strings
-
-1. Problem: Fibonacci Series
+1. Problem: Check if Binary Tree is Symmetric
 
 Problem Statement:
-Write a function to generate the Fibonacci series up to a given number n.
+Given a binary tree, determine if it is symmetric around its center.
 
 Input:
-An integer n.
+A binary tree.
 
 Output:
-The Fibonacci series up to n.
+True if the binary tree is symmetric, otherwise false.
 
 Example:
 Input:
-n = 8
+1
+/
+2 2
+/ \ /
+3 4 4 3
 Output:
-Fibonacci series: 0, 1, 1, 2, 3, 5, 8
+True
 
-2. Problem: Longest Palindromic Substring
+2. Problem: Find the Shortest Path in a Graph
 
 Problem Statement:
-Given a string, find the longest palindromic substring in it.
+Given an undirected graph and two vertices, find the shortest path between these two vertices.
 
 Input:
-A string.
+An undirected graph represented as an adjacency list and two vertices.
 
 Output:
-The longest palindromic substring.
+The shortest path between the two vertices.
 
 Example:
 Input:
-"babad"
+Graph:
+{
+0: [1, 2],
+1: [0, 2, 3],
+2: [0, 1, 4],
+3: [1, 4],
+4: [2, 3]
+}
+Vertices: 0, 4
 Output:
-"bab" or "aba"
+Shortest Path: 0 -> 2 -> 4
 
-3. Problem: Coin Change Problem
+Apologies for the repetition. Let me correct that:
+
+3. Problem: Detect Cycle in a Directed Graph
 
 Problem Statement:
-Given a set of coins and a target amount, find the minimum number of coins needed to make up that amount. You have an infinite supply of each coin denomination.
+Given a directed graph, determine if the graph contains a cycle.
 
 Input:
-A list of coin denominations and a target amount.
+A directed graph represented as an adjacency list.
 
 Output:
-The minimum number of coins needed to make up the target amount.
+True if the graph contains a cycle, otherwise false.
 
 Example:
 Input:
-Coins: [1, 2, 5]
-Target amount: 11
+Graph:
+{
+  0: [1],
+  1: [2],
+  2: [0, 3],
+  3: [3]
+}
 Output:
-Minimum number of coins: 3
+True
 
