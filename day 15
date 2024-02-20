@@ -1,22 +1,21 @@
 Day 15: Sorting and Searching
 
-1. Problem: Binary Search
+1.  Problem: First Unique Character in a String
 
 Problem Statement:
-Implement the binary search algorithm to find the index of a target element in a sorted array.
+Given a string, find the first non-repeating character and return its index. If it doesn't exist, return -1.
 
 Input:
-A sorted array of integers and a target element.
+A string containing only lowercase English letters.
 
 Output:
-The index of the target element if found, otherwise -1.
+The index of the first non-repeating character, or -1 if no such character exists.
 
 Example:
 Input:
-Array: [2, 4, 6, 8, 10, 12, 14]
-Target: 10
+s = "leetcode"
 Output:
-Index: 4
+0
 
 2. Problem: Merge Intervals
 
