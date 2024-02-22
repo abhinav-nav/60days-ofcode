@@ -1,0 +1,71 @@
+
+
+Day 17: Graphs and Trees
+
+1. Problem: Symmetric Tree
+
+Problem Statement:
+Given a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center).
+
+Input:
+A binary tree.
+
+Output:
+True if the binary tree is symmetric, otherwise false.
+
+Example:
+Input:
+1
+/
+2 2
+/ \ /
+3 4 4 3
+Output:
+True
+
+This problem checks whether a binary tree is symmetric, which is different from the previously provided easy-level problem.
+2. Problem: Word Search
+
+Problem Statement:
+Given a 2D board and a word, find if the word exists in the grid. The word can be constructed from letters of sequentially adjacent cells, where "adjacent" cells are horizontally or vertically neighboring. The same letter cell may not be used more than once.
+
+Input:
+A 2D board of characters and a word.
+
+Output:
+True if the word exists in the grid, otherwise false.
+
+Example:
+Input:
+board = [
+['A','B','C','E'],
+['S','F','C','S'],
+['A','D','E','E']
+]
+word = "ABCCED"
+Output:
+True
+
+This problem involves searching for a word in a 2D board, which is different from the previously provided medium-level problem.
+
+3. Problem: Number of Islands
+
+Problem Statement:
+Given an m x n 2D binary grid grid which represents a map of '1's (land) and '0's (water), return the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
+
+Input:
+A 2D binary grid.
+
+Output:
+The number of islands.
+
+Example:
+Input:
+grid = [
+['1','1','1','1','0'],
+['1','1','0','1','0'],
+['1','1','0','0','0'],
+['0','0','0','0','0']
+]
+Output:
+1
