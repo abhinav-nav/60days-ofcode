@@ -2,28 +2,24 @@
 
 Day 17: Graphs and Trees
 
-1. Problem: Symmetric Tree
+1. Problem: Single Number
 
 Problem Statement:
-Given a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center).
+Given a non-empty array of integers, every element appears twice except for one. Find that single one.
+
+Note: Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
 
 Input:
-A binary tree.
+An array of integers.
 
 Output:
-True if the binary tree is symmetric, otherwise false.
+The single integer that appears only once.
 
 Example:
 Input:
-1
-/
-2 2
-/ \ /
-3 4 4 3
+[4,1,2,1,2]
 Output:
-True
-
-This problem checks whether a binary tree is symmetric, which is different from the previously provided easy-level problem.
+4
 2. Problem: Word Search
 
 Problem Statement:
