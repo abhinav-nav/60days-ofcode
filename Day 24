@@ -1,0 +1,71 @@
+
+Day 24: Trees and Graphs
+
+1. Problem: Symmetric Tree
+
+Problem Statement:
+Given the root of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center).
+
+Input:
+The root of a binary tree.
+
+Output:
+True if the binary tree is symmetric, otherwise false.
+
+Example:
+Input:
+    1
+   / \
+  2   2
+ / \ / \
+3  4 4  3
+Output:
+True
+
+2. Problem: Clone Graph
+
+Problem Statement:
+Given a reference of a node in a connected undirected graph, return a deep copy (clone) of the graph.
+
+Input:
+A reference of a node in the graph.
+
+Output:
+The reference of the cloned graph.
+
+Example:
+Input:
+Graph:
+    1---2
+    |   |
+    4---3
+Output:
+Cloned Graph:
+    1---2
+    |   |
+    4---3
+
+ 2.Problem: Number of Islands
+
+Problem Statement:
+Given an m x n 2D binary grid grid which represents a map of '1's (land) and '0's (water), return the number of islands.
+
+An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
+
+Input:
+An m x n 2D binary grid grid.
+
+Output:
+The number of islands.
+
+Example:
+Input:
+grid = [
+  ["1","1","1","1","0"],
+  ["1","1","0","1","0"],
+  ["1","1","0","0","0"],
+  ["0","0","0","0","0"]
+]
+Output:
+1
+
