@@ -1,0 +1,64 @@
+1.Rat in a maze
+
+Consider a rat placed at (0, 0) in a square matrix of order N * N. It has to reach the destination at (N – 1, N – 1). 
+Find all possible paths that the rat can take to reach from source to destination. The directions in which the rat can move are 
+‘U'(up), ‘D'(down), ‘L’ (left), ‘R’ (right). Value 0 at a cell in the matrix represents that it is blocked and the rat cannot move to 
+it while value 1 at a cell in the matrix represents that rat can travel through it.
+
+Note: In a path, no cell can be visited more than one time.
+
+Print the answer in lexicographical(sorted) order
+
+Example 1:
+
+Input:
+N = 4
+m[][] = {{1, 0, 0, 0},
+        {1, 1, 0, 1}, 
+        {1, 1, 0, 0},
+        {0, 1, 1, 1}}
+
+Output: DDRDRR DRDDRR
+
+The rat can reach the destination at (3, 3) from (0, 0) by two paths - DRDDRR and DDRDRR, when printed in sorted order we get DDRDRR DRDDRR.
+
+Example 2:
+
+Input: N = 2
+       m[][] = {{1, 0},
+                {1, 0}}
+
+Output:
+ No path exists and the destination cell is blocked.
+
+Link - https://takeuforward.org/data-structure/rat-in-a-maze/
+
+2. Last Stone Weight II
+
+ou are given an array of integers stones where stones[i] is the weight of the ith stone.
+
+We are playing a game with the stones. On each turn, we choose any two stones and smash them together. Suppose the stones have weights x and y with x <= y. The result of this smash is:
+
+If x == y, both stones are destroyed, and
+If x != y, the stone of weight x is destroyed, and the stone of weight y has new weight y - x.
+At the end of the game, there is at most one stone left.
+
+Return the smallest possible weight of the left stone. If there are no stones left, return 0.
+
+ 
+
+Example 1:
+
+Input: stones = [2,7,4,1,8,1]
+Output: 1
+Explanation:
+We can combine 2 and 4 to get 2, so the array converts to [2,7,1,8,1] then,
+we can combine 7 and 8 to get 1, so the array converts to [2,1,1,1] then,
+we can combine 2 and 1 to get 1, so the array converts to [1,1,1] then,
+we can combine 1 and 1 to get 0, so the array converts to [1], then that's the optimal value.
+Example 2:
+
+Input: stones = [31,26,33,21,40]
+Output: 5
+
+link - https://leetcode.com/problems/last-stone-weight-ii/description/
