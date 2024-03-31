@@ -1,0 +1,41 @@
+1. Minimum Knight Moves
+
+In an infinite chess board with coordinates from -infinity to +infinity, you have a knight at square [0, 0].
+
+A knight has 8 possible moves it can make, as illustrated below. Each move is two squares in a cardinal direction,
+then one square in an orthogonal direction.
+
+Return the minimum number of steps needed to move the knight to the square [x, y].  It is guaranteed the answer exists.
+
+Example 1:
+
+Input: x = 2, y = 1
+Output: 1
+Explanation: [0, 0] → [2, 1]
+
+Link - https://leetcode.ca/all/1197.html
+
+
+2. Box Stacking Problem
+
+You are given a set of n types of rectangular 3-D boxes, where the i^th box has height h(i), width w(i)
+and depth d(i) (all real numbers). 
+You want to create a stack of boxes which is as tall as possible, but you can only stack a box on top of another
+box if the dimensions of the 2-D base of the 
+lower box are each strictly larger than those of the 2-D base of the higher box.
+Of course, you can rotate a box so that any side functions as its base. It is also allowable to use multiple 
+instances of the same type of box. 
+
+Input:
+
+bars = 3 (number of bars)
+
+Bar dimensions:
+* Bar 1: (length x width x height) = (2 x 1 x 4)
+* Bar 2: (length x width x height) = (3 x 2 x 1)
+* Bar 3: (length x width x height) = (1 x 4 x 2)
+Output:
+
+Maximum Height = 5
+
+link - https://www.geeksforgeeks.org/box-stacking-problem-dp-22/
