@@ -1,0 +1,46 @@
+1. Rearrange String k Distance Apart
+
+Given a non-empty string s and an integer k, rearrange the string such that the same characters are at least distance k from each other.
+
+All input strings are given in lowercase letters. If it is not possible to rearrange the string, return an empty string "".
+
+Example 1:
+
+Input: s = "aabbcc", k = 3
+Output: "abcabc"
+Explanation: The same letters are at least distance 3 from each other.
+
+
+link - https://leetcode.ca/all/358.html
+
+2. Range Sum Query 2D - Mutable
+
+Given a 2D matrix matrix
+
+  [3, 0, 1, 4, 2]
+  [5, 6, 3, 2, 1]
+  [1, *2, 0, 1*, 5]
+  [4, *1, 0, 1*, 7]
+  [1, *0, 3, 0*, 5]
+
+The above rectangle (with the red border) is defined by (row1, col1) = (2, 1) and (row2, col2) = (4, 3), which contains sum = 8.
+
+Example:
+Given matrix = [
+  [3, 0, 1, 4, 2],
+  [5, 6, 3, 2, 1],
+  [1, 2, 0, 1, 5],
+  [4, 1, 0, 1, 7],
+  [1, 0, 3, 0, 5]
+]
+
+sumRegion(2, 1, 4, 3) -> 8
+update(3, 2, 2)
+sumRegion(2, 1, 4, 3) -> 10
+
+Note:
+The matrix is only modifiable by the update function.
+You may assume the number of calls to update and sumRegion function is distributed evenly.
+You may assume that row1 ≤ row2 and col1 ≤ col2.
+
+link - https://leetcode.ca/all/308.html
